@@ -4,10 +4,12 @@
   height: 10rem;
 }
 
+/* efeito do card em cima do background roxo */
 .skills .container {
   margin-top: -10rem;
 }
 
+/* estilização das colunas */
 .skills .grid {
   background-color: var(--background);
   margin: 0 2rem;
@@ -17,6 +19,7 @@
   box-shadow: 0 3px 5px var(--primary-light);
 }
 
+/* Área do card */
 .skills .skill {
   text-align: center;
   border-right: 0;
@@ -25,6 +28,7 @@
   padding: 5rem 2rem;
 }
 
+/* Removendo a última barra */
 .skills .skill:last-child {
   border-right: 0;
   border-bottom: 0;
