@@ -86,11 +86,13 @@
   text-decoration: none;
 }
 
+/* Fazendo a imagem aumentar de tamanho com o hover */
 .recent-work .item:hover .image {
   transform: scale(1.2);
   transition: all ease .5s;
 } 
 
+/* fazendo o texto aparecer quando passar o mouse */
 .recent-work .item:hover .overlay {
   opacity: 1;
 }
