@@ -1,6 +1,6 @@
 .collab {
   background-color: var(--foreground);
-  color: var(--primary-light);
+  color: var(--background);
   padding: 8rem 2rem;
   text-align: center;
 }
