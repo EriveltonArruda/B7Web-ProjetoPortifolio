@@ -25,14 +25,11 @@ const toggleSlider = () => {
   // pega o número dele
   let id = parseInt(current.getAttribute("id").split("-")[1]);
   // Se existir o 2, aumente, se não, volte ao 1
-  console.log("antes, id marcado", id);
   if (id + 1 <= slides.length) {
     id++;
   } else {
     id = 1;
   }
-
-  console.log("id marcado", id);
 
   // Desmarcar todo mundo
   for (let slider of slides) slider.removeAttribute("checked");
