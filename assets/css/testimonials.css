@@ -78,8 +78,10 @@
   transition: all ease 0.5s;
 }
 
-/* Mudar o slider */
-/* Quando o slider 1 estiver checked, ele vai procurar próximo a ele o slider-area e ai aplica o efeito */
+/* Mudar o slider
+O combinador geral de irmãos (~) separa dois seletores e corresponde ao segundo elemento somente se ele for precedido pelo primeiro, e ambos compartilham um pai comum.
+
+Quando o slider 1 estiver checked, ele vai procurar próximo a ele o slider-area e ai aplica o efeito */
 #slider-1:checked ~ .slider-area {
   margin-left: 0%;
 }
@@ -88,6 +90,8 @@
   margin-left: -100%;
 }
 
+/* Quando o slider-1 estiver checked, aplicará a cor, a mesma coisa
+no slider-2 */
 #slider-1:checked ~ .slider-nav .n1 {
   background-color: var(--foreground);
 }
