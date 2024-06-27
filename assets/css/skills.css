@@ -1,87 +1,82 @@
-/* Área roxa para dar o efeito do card */
 .skills-overlay {
-  background-color: var(--foreground);
-  height: 10rem;
+    background-color: var(--foreground);
+    height: 10rem;
 }
 
-/* efeito do card em cima do background roxo */
 .skills .container {
-  margin-top: -10rem;
+    margin-top: -10rem;
 }
 
-/* estilização das colunas */
 .skills .grid {
-  background-color: var(--background);
-  margin: 0 2rem;
-  border-radius: 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  box-shadow: 0 3px 5px var(--primary-light);
+    background-color: var(--background);
+    margin: 0 2rem;
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 3px 5px var(--primary-light);
 }
 
-/* Área do card */
 .skills .skill {
-  text-align: center;
-  border-right: 0;
-  border-bottom: 1px solid var(--primary-light);
-  color: var(--primary);
-  padding: 5rem 2rem;
+    text-align: center;
+    border-right: 0;
+    border-bottom: 1px solid var(--primary-light);
+    color: var(--primary);
+    padding: 5rem 2rem;
 }
 
-/* Removendo a última barra */
 .skills .skill:last-child {
-  border-right: 0;
-  border-bottom: 0;
+    border-right: 0;
+    border-bottom: 0;
 }
 
 @media (width > 600px) {
-  .skills .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .skills .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-  .skills .skill {
-    border-bottom: 0;
-    border-right: 1px solid var(--primary-light);
-  }
+    .skills .skill {
+        border-bottom: 0;
+        border-right: 1px solid var(--primary-light);
+    }
 }
 
 /* SKILL ITEM */
 .skill-icon {
-  width: 7rem;
-  height: 7rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: var(--secondary);
-  color: var(--secondary-foreground);
-  margin: auto;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--secondary);
+    color: var(--secondary-foreground);
+    margin: auto;
 }
 
 .skill-icon img {
-  width: 4rem;
-  height: 4rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .skill-title {
-  font-weight: bold;
-  font-size: 2rem;
-  margin: 3rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 3rem 0;
 }
 
 .skill-desc {
-  font-size: 1.7rem;
-  line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
 }
 
 .skill-sub {
-  font-size: 1.7rem;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  color: var(--foreground);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: var(--foreground);
 }
 
 .skill-txt {
-  font-size: 1.7rem;
-  line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
 }
